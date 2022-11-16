@@ -16,7 +16,11 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 # Github repository link
 
+https://github.com/kusalaindika1/liyanage-kusal-Portfolio
+
 # deploy link
+
+https://kusalaindika1.github.io/liyanage-kusal-Portfolio/
 
 # screenshorts
 
