@@ -4,108 +4,156 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>E-k-liyanage portfolio</title>
+    <title>Liyanage kusal Portfolio</title>
   </head>
   <body>
-    <!-- header and nav section -->
     <header>
-      <h1>
-        Ethugalge kusal liyanage
-        <div class="profile-image">
-          <img src="image/ku-123.jpg" alt="Profile-Image-kusal-liyanage" />
-        </div>
-      </h1>
       <nav>
-        <ul>
+        <h1>Liyanage <span>kusal</span></h1>
+        <ol class="desktopMenu">
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="#aboutMe">About Me</a>
           </li>
           <li>
             <a href="#work">Work</a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+            <a href="#contactMe">Contact Me</a>
           </li>
           <li>
             <a href="#resume">Resume</a>
           </li>
+        </ol>
+        <ul id="menu" class="hidden">
+          <div class="menuCloseButton">
+            <img id="menuCloseButton" src="img/close-svgrepo-com.svg" />
+          </div>
+          <div class="menuItem">
+            <li>
+              <a href="#aboutMe">About Me</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#contactMe">Contact Me</a>
+            </li>
+            <li>
+              <a href="#resume">Resume</a>
+            </li>
+          </div>
         </ul>
+
+        <img id="menuButton" src="img/menu-svgrepo-com.svg" />
       </nav>
     </header>
-    <!-- end nav and header -->
 
-    <section>
-      <div class="page-top">
-        <h2>Hello, I'm web devoloper</h2>
-      </div>
-    </section>
-
-    <!-- CONTENT -->
-    <article>
-      <div class="about-me" id="about-me">
-        <h2>About Me</h2>
-      </div>
-      <div class="about-me-content">
-        <p>
-          Innovative,task-driven professional with experience in web design and
-          development across diverse industries.Equipped with a record of
-          success in consistently identifying and providing the technological
-          needs of companies through ingenious innovation. proficient in
-          devoloping databases, creating user interfaces, writing and reading
-          cods,troubleshooting simple/ complex issues and implementing new
-          features.
-        </p>
-      </div>
-    </article>
-
-    <article>
-      <div class="work-title">
-        <h2>Work</h2>
-      </div>
-      <section class="work" id="work">
-        <div class="work-card">
-          <img
-            src="https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFya3xlbnwwfHwwfHw%3D&w=1000&q=80"
-          />
-          <div class="work-card-footer">
-            <a href="#"><h3>parks</h3></a>
+    <main>
+      <div class="topMain">
+        <section class="top">
+          <div class="top__image">
+            <img
+              src="https://codeclan.com/wp-content/uploads/elementor/thumbs/A-Day-in-the-Life-of-a-Web-Developer-2-pbg5rw8pizlbn2peo1ty2qg1uhew1ml9108shue49c.jpg"
+            />
           </div>
-        </div>
-        <div class="work-card">
-          <img
-            src="https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFya3xlbnwwfHwwfHw%3D&w=1000&q=80"
-          />
-          <div class="work-card-footer">
-            <a href="#"><h3>parks</h3></a>
+          <h1>Hello, I'm <span>Web Devoloper</span></h1>
+          <h3>Ethugalge Kusala Liyanage</h3>
+        </section>
+
+        <section id="aboutMe">
+          <h2>About Me</h2>
+          <p>
+            Innovative, task-driven professional with experience in web design
+            and development across diverse industries. Equipped with a record of
+            success in consistently identifying and providing the technological
+            needs of companies through ingenious innovation. proficient in
+            devoloping databases, creating user interfaces, writing and reading
+            cods, troubleshooting simple/ complex issues and implementing new
+            features.
+          </p>
+        </section>
+      </div>
+
+      <section id="work">
+        <h2>My Work</h2>
+        <div class="workSection">
+          <div class="workCard">
+            <img
+              src="https://cutewallpaper.org/23/web-development-wallpaper-hd/the-complete-full-stack-web-developer-roadmap-2021-dev-community.jpeg"
+            />
+            <div class="workCardDetails">
+              <h4>Weather App</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                neque ullam distinctio facere vel asperiores.
+              </p>
+            </div>
+          </div>
+          <div class="workCard">
+            <img
+              src="https://cutewallpaper.org/23/web-development-wallpaper-hd/the-complete-full-stack-web-developer-roadmap-2021-dev-community.jpeg"
+            />
+            <div class="workCardDetails">
+              <h4>readme-genarater</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                neque ullam distinctio facere vel asperiores.
+              </p>
+            </div>
+          </div>
+          <div class="workCard">
+            <img
+              src="https://cutewallpaper.org/23/web-development-wallpaper-hd/the-complete-full-stack-web-developer-roadmap-2021-dev-community.jpeg"
+            />
+            <div class="workCardDetails">
+              <h4>Employee-traker</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                neque ullam distinctio facere vel asperiores.
+              </p>
+            </div>
+          </div>
+          <div class="workCard">
+            <img
+              src="https://cutewallpaper.org/23/web-development-wallpaper-hd/the-complete-full-stack-web-developer-roadmap-2021-dev-community.jpeg"
+            />
+            <div class="workCardDetails">
+              <h4>Password-genarater</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                neque ullam distinctio facere vel asperiores.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-    </article>
-    <!-- END CONTENT -->
-    <!-- FOOTER ARTICLE -->
 
-    <article id="contact-me">
-      <div class="contact-me-title">
+      <section id="contactMe">
         <h2>Contact Me</h2>
-      </div>
-      <div class="contact-me-items">
-        <h4>
-          <a href="tel:647-865-1435">647-865-1435</a>
-        </h4>
-        <h4>
-          <a href="mailto: kusala123@yahoo.ca">kusala123@yahoo.ca</a>
-        </h4>
-        <h4>
-          <a href="https://github.com/indikusal">Github</a>
-        </h4>
-      </div>
-    </article>
-    <hr />
-    <br />
-    <br />
-    <footer>all rights recived 22022</footer>
+        <div class="contactMeContent">
+          <h4>
+            <span>Telephone</span>
+            <a href="tel:647-865-1435">647-865-1435</a>
+          </h4>
+          <h4>
+            <span>E-mail</span>
+            <a href="mailto: kusala123@yahoo.ca">kusala123@yahoo.ca</a>
+          </h4>
+          <h4>
+            <span>Github</span>
+            <a href="https://github.com/indikusal">indikusal</a>
+          </h4>
+        </div>
+      </section>
+    </main>
 
-    <!-- END FOOTER ARTICLE-->
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
